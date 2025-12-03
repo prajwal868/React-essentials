@@ -1,12 +1,12 @@
-import { Counter } from "./Counter";
 import React from "react";
-import ReactDom from 'react-dom/client'
+import ReactDOM from 'react-dom/client'
+import { MarvelClass } from "./spec";
 
 const container = document.getElementById("root")
-const root = ReactDom.createRoot(container)
+const root = ReactDOM.createRoot(container)
 root.render(
-    
     <>
-    <Counter/>
+    <MarvelClass/>
     </>
 )
+

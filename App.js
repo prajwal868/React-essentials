@@ -1,11 +1,5 @@
-import{Header ,Footer ,Avenger} from "./Shield"
+import { MarvelClass } from "./spec";
 
-export function App(){
-    return<>
-    <Header/>
-    <Avenger/>
-    <Footer/>
-    </>
-
-
+export function Apps(){
+    
 }
