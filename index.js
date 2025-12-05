@@ -1,4 +1,4 @@
-import { Counter } from "./Counter";
+import { Apps } from "./App";
 import React from "react";
 import ReactDom from 'react-dom/client'
 
@@ -7,6 +7,7 @@ const root = ReactDom.createRoot(container)
 root.render(
     
     <>
-    <Counter/>
+    <Apps/>
     </>
+
 )
